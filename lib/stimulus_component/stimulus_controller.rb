@@ -1,6 +1,6 @@
 module StimulusComponent
   class StimulusController
-    include StimulusDsl
+    include StimulusComponent::StimulusDsl
 
     def initialize(controller:, actions: [])
       @controller = controller
