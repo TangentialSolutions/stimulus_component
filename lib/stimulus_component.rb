@@ -1,6 +1,5 @@
 require "stimulus_component/version"
+require "stimulus_component/stimulus_controller"
+require "stimulus_component/stimulus_dsl"
 
-module StimulusComponent
-  class Error < StandardError; end
-  # Your code goes here...
-end
+module StimulusComponent; end

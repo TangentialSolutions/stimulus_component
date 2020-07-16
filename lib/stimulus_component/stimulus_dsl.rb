@@ -1,5 +1,5 @@
-module Stimulus
-  module Dsl
+module StimulusComponent
+  module StimulusDsl
     def initialize_controller
       "data-controller=#{controller}"
     end
