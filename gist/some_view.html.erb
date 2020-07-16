@@ -1,0 +1,3 @@
+<%= render StimulusComponent.new controller: "test" do |component| %>
+  <button <%= component.action :click, :test, :test %>>Hello, Stimulus Component!</button>
+<% end %>
