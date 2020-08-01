@@ -1,5 +1,7 @@
 module StimulusComponent
-  class StimulusController
+  class StimulusController < ::ViewComponent::Base
+    with_content_areas :root_actions, :root_targets, :root_content
+
     include StimulusComponent::StimulusDsl
 
     def initialize(controller:, actions: [])
