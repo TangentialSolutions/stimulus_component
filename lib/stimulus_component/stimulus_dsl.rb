@@ -5,7 +5,6 @@ module StimulusComponent
     end
 
     def action(event_type, controller, controller_method)
-
       "data-action=#{event_type}->#{controller.to_s.underscore}##{controller_method}"
     end
 
